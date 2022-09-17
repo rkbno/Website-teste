@@ -1,0 +1,28 @@
+html {
+    font-size: 0.625rem ; 
+}
+
+
+.patch::after {
+    position: absolute;
+    
+        
+        top: 125px;
+        left: 250px;
+        padding: 0 10px;   
+        
+    
+        background-color: rgb(0, 38, 255);
+        border-radius: 20%;
+        color: #FFF;
+    
+        font-size: 0.5em;
+        line-height: 2.5;
+        text-align: end;
+    
+        content: "Patch 3.4";
+}
+
+.patch {
+    font-size: 2em ;
+}
