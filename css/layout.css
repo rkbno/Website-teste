@@ -1,9 +1,40 @@
+html {
+    font-size: 0.625rem;
+    
+}
 .layout-cabecalho {
-
-    display: inline-block;
-    border: 1px solid #ccc;
-
-    background-color: rgb(119, 178, 255);
+    margin: 0;
+    padding: 40px 0;
 
     text-align: center;
+    
+    border-bottom: 1px solid black;
+    
 }
+
+.layout-acao {
+    
+    text-align: center;
+    
+    background-color: black;
+    color: white;
+
+}
+
+.layout-rodape {
+    padding-top: 40px;
+
+    text-align: center;
+    font: italic bold  Arial, sans-serif;
+
+    background-color: rgb(128, 127, 127);
+    color: white;
+}    
+
+.developed {
+    
+    font-size: 1.09em;
+    font: bold;
+}
+
+
