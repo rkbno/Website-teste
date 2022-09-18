@@ -2,6 +2,7 @@ html {
     font-size: 0.625rem;
     
 }
+
 .layout-cabecalho {
     margin: 0;
     padding: 40px 0;
@@ -9,8 +10,10 @@ html {
     text-align: center;
     
     border-bottom: 1px solid black;
+    background-color: rgb(150, 0, 0);
     
 }
+
 
 .layout-acao {
     
@@ -21,6 +24,14 @@ html {
 
 }
 
+
+.layout-video { 
+    padding-bottom: 95px;
+    text-align: center;
+    background-color: black;
+}
+
+
 .layout-rodape {
     padding-top: 40px;
 
@@ -29,12 +40,27 @@ html {
 
     background-color: rgb(128, 127, 127);
     color: white;
-}    
+}   
 
-.developed {
-    
-    font-size: 1.09em;
-    font: bold;
+
+   
+   
+
+   
+
+   
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
