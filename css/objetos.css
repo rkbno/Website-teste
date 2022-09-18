@@ -6,7 +6,12 @@
     margin-top: 30px;
 
     background-color: rgb(60, 245, 229);
-    font: bold;
+    color: black;
+    font-family: bold;
+
+    
+
+    
 
     
 }
@@ -17,4 +22,78 @@
     
     font-size: 1.09em;
     font: bold;
+}
+
+
+.plano {
+    padding-top: 40px;
+   
+   
+
+    background-color: black;
+
+
+
+    text-align: center;
+}
+
+
+
+.plano__promocao { 
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: center;
+
+    color: white;
+}
+
+.plano__cabecalho {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:  2em;
+    
+    color: rgb(60, 245, 229);
+
+    
+}
+
+.plano__preco { 
+    position: relative;
+    bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted rgb(60, 245, 229);
+
+
+    font-size: 5em;
+
+
+    color: white;
+
+}
+
+.plano__caracteristicas {
+    list-style: none;
+    padding-right: 50px;
+   
+
+    color: white;
+}
+
+li > samp {
+    color: rgb(60, 245, 229);
+}
+
+
+.outro__botao { 
+    width: 200px;
+height: 50px;
+border: none;
+border-radius: 20px;
+
+margin: 10px 0px 250px 0px;
+
+
+background-color: rgb(60, 245, 229);
+color: black;
+font-family: bold;
+
 }
