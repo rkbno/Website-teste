@@ -29,6 +29,7 @@
     padding-top: 40px;
    
    
+   
 
     background-color: black;
 
@@ -96,4 +97,23 @@ background-color: rgb(60, 245, 229);
 color: black;
 font-family: bold;
 
+}
+
+.container {
+    position: relative;
+    border-bottom: 1px dotted rgb(60, 245, 229) ;
+}
+
+.plano__cartao { 
+    position: absolute;
+    bottom: 11em;
+    left: 33.8em;
+}
+
+.plano__rodape {
+    position: absolute;
+    bottom: 9.5em;
+    left: 28.5em;
+
+    color: white;
 }
