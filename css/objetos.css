@@ -14,6 +14,8 @@
     
 
     
+
+    
 }
 
 
@@ -27,7 +29,8 @@
 
 .plano {
     padding-top: 40px;
-   
+    padding-bottom: 0;
+    margin-bottom: 0;
    
    
 
@@ -90,7 +93,7 @@ height: 50px;
 border: none;
 border-radius: 20px;
 
-margin: 10px 0px 250px 0px;
+margin: 10px 0px 170px 0px;
 
 
 background-color: rgb(60, 245, 229);
@@ -102,18 +105,66 @@ font-family: bold;
 .container {
     position: relative;
     border-bottom: 1px dotted rgb(60, 245, 229) ;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
 }
 
 .plano__cartao { 
     position: absolute;
-    bottom: 11em;
+    bottom: 6em;
     left: 33.8em;
 }
 
 .plano__rodape {
     position: absolute;
-    bottom: 9.5em;
+    bottom: 4.5em;
     left: 28.5em;
+    
 
     color: white;
+}
+
+.resultados {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.resultados_alunos { 
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.resultados_img { 
+    padding-bottom: 150px;
+    
+
+}
+
+.resultados__diamante { 
+padding: 0 40px 40px 0;
+}
+
+.garantia {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.comofunciona { 
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.garantia__txt {
+    padding-bottom: 100px;
+}
+
+.garantia__img {
+    padding-bottom: 40px;
 }
